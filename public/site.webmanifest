@@ -1,0 +1,24 @@
+{
+  "name": "Αντώνης Εκατομμάτης | Portfolio",
+  "short_name": "Αντώνης Εκατομμάτης",
+  "icons": [
+    {
+      "src": "/icons/favicon-16x16.svg",
+      "sizes": "16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#3B82F6",
+  "background_color": "#ffffff",
+  "display": "standalone"
+} 

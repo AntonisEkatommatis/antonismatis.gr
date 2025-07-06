@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" /> <!-- blue-500 -->
+      <stop offset="100%" stop-color="#6366F1" /> <!-- indigo-500 -->
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5E7EB" /> <!-- gray-200 -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)" />
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.1)" />
+  <circle cx="1000" cy="500" r="120" fill="rgba(255,255,255,0.1)" />
+  <circle cx="900" cy="100" r="50" fill="rgba(255,255,255,0.1)" />
+  <circle cx="300" cy="500" r="60" fill="rgba(255,255,255,0.1)" />
+  
+  <!-- Code brackets decoration -->
+  <path d="M150 250 L80 315 L150 380" stroke="rgba(255,255,255,0.2)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M1050 250 L1120 315 L1050 380" stroke="rgba(255,255,255,0.2)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Main content -->
+  <g transform="translate(600, 315)" text-anchor="middle">
+    <!-- Name -->
+    <text font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" dominant-baseline="middle">
+      Αντώνης Εκατομμάτης
+    </text>
+    
+    <!-- Title -->
+    <text font-family="Arial, sans-serif" font-size="36" fill="rgba(255,255,255,0.8)" dominant-baseline="middle" y="80">
+      Software Engineer
+    </text>
+    
+    <!-- Skills -->
+    <g transform="translate(0, 160)">
+      <rect x="-300" y="-20" width="600" height="40" rx="20" fill="rgba(255,255,255,0.1)" />
+      <text font-family="Arial, sans-serif" font-size="24" fill="white" dominant-baseline="middle">
+        React • Node.js • Python • JavaScript • Java
+      </text>
+    </g>
+  </g>
+  
+  <!-- Logo -->
+  <g transform="translate(600, 120)">
+    <circle cx="0" cy="0" r="60" fill="white" />
+    <g transform="scale(0.8)">
+      <path d="M-35 -30 L-50 0 L-35 30" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <path d="M35 -30 L50 0 L35 30" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <path d="M15 -40 L-15 40" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+  </g>
+  
+  <!-- URL -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    antonismatis.gr
+  </text>
+</svg> 

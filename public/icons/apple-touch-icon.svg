@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="180">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" /> <!-- blue-500 -->
+      <stop offset="100%" stop-color="#6366F1" /> <!-- indigo-500 -->
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5E7EB" /> <!-- gray-200 -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect x="5" y="5" width="90" height="90" rx="20" fill="url(#bgGradient)" />
+  
+  <!-- Code brackets -->
+  <path d="M35 30 L20 50 L35 70" stroke="url(#textGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M65 30 L80 50 L65 70" stroke="url(#textGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Slash in the middle -->
+  <path d="M55 25 L45 75" stroke="url(#textGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg> 

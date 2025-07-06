@@ -1,0 +1,104 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "experience": "Experience",
+    "contact": "Contact",
+    "education": "Education"
+  },
+  "home": {
+    "title": "Antonis Ekatommatis",
+    "subtitle": "Software Engineer",
+    "cta": "Learn More",
+    "more_info_title": "More Information",
+    "more_info_text": "My personal website serves as my online resume, providing a comprehensive overview of my skills, professional experience, and certifications. You can find more details in the respective sections.",
+    "contact_button": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "My name is Antonis Ekatommatis, and I am a software developer with a passion for continuous learning and technological advancement. I graduated from the University of Piraeus with a degree in Computer Science, gaining a strong foundation in programming and software development.\n\nMy professional philosophy is based on the continuous pursuit of knowledge, as I believe that constant growth is the key to innovation and success in any project. I focus primarily on Full Stack Development, with a preference for backend technologies, while always seeking new challenges that allow me to expand my skills and contribute meaningfully to the development of technological solutions.\n\nI live in Chios, but my passion for technology and programming innovation knows no boundaries. My goal is to evolve into a top-tier developer, leveraging my knowledge to create efficient, reliable, and modern applications."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "The technical skills I have developed during my education and professional career.",
+    "no_skills": "There are no skills in the selected category.",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    },
+    "categories": {
+      "languages": "Programming Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tools": "Tools & Platforms",
+      "all": "All Skills"
+    },
+    "java": "Java",
+    "nodejs": "Node.js",
+    "react": "React",
+    "python": "Python",
+    "csharp": "C#",
+    "kotlin": "Kotlin",
+    "wordpress": "Wordpress",
+    "php": "PHP",
+    "sql": "SQL",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "flask": "Flask",
+    "powerapps": "Microsoft Power Apps",
+    "powerautomate": "Microsoft Power Automate",
+    "ai": "Custom AI Agents"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "english": "Certificate in ESOL International",
+    "nodejs": "Udemy: NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+    "git": "Udemy: The Git & Github Bootcamp",
+    "react": "Udemy: React - The Complete Guide 2025 (incl. Next.js, Redux)"
+  },
+  "experience": {
+    "title": "Experience",
+    "kokolias": {
+      "title": "Junior Software Engineer and Junior IT",
+      "company": "KOKOLIAS",
+      "period": "August 2024 - Present",
+      "description": "At KOKOLIAS company, I am responsible for developing and maintaining web applications, managing databases, and providing IT support. Additionally, I contribute to automating business processes through Microsoft Power Platform and developing solutions that improve the company's efficiency."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "location": "Location",
+    "education": "Education"
+  },
+  "education": {
+    "title": "My Education",
+    "subtitle": "Academic journey and achievements",
+    "university": {
+      "name": "University of Piraeus",
+      "degree": "Computer Science",
+      "grade": "Grade: 7.61",
+      "period": "October 2018",
+      "specialization": "Software Technology and Intelligent Systems",
+      "description": "I studied at the Department of Informatics at the University of Piraeus, focusing on software development and intelligent systems. My curriculum included courses in algorithms, data structures, databases, artificial intelligence, and application development."
+    },
+    "highschool": {
+      "name": "High School",
+      "degree": "Computer Science",
+      "grade": "Grade: 19.8",
+      "period": "June 2018",
+      "specialization": "IT Applications Technician",
+      "description": "At the High School, I gained solid foundations in computer science and programming. The curriculum included courses in programming languages, computer networks, databases, and application development."
+    }
+  },
+  "language": {
+    "el": "Greek",
+    "en": "English"
+  }
+} 
