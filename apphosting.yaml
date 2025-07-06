@@ -1,0 +1,23 @@
+runConfig:
+  minInstances: 1
+  maxInstances: 10
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+
+env:
+  - variable: NODE_ENV
+    value: production
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: BASE_URL
+    value: https://antonismatis.gr
+    availability:
+      - RUNTIME
+
+  - variable: API_VERSION
+    value: v1
+    availability:
+      - RUNTIME
