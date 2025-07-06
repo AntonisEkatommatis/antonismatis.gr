@@ -12,7 +12,7 @@ export default function Certifications() {
       name: 'english', 
       issuer: 'LRN',
       date: '2025',
-      link: 'https://lrnglobal.org/lrn-level-1-certificate-in-esol-international-cef-b2/'
+      link: 'https://www.esolnethellas.gr/portfolio/lrn-b2/'
     },
     { 
       name: 'nodejs', 
@@ -89,7 +89,7 @@ export default function Certifications() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-primary hover:underline mt-2"
                     >
-                      <span className="mr-1">View Certificate</span>
+                      <span className="mr-1">Visit</span>
                       <FaExternalLinkAlt size={12} />
                     </a>
                   )}

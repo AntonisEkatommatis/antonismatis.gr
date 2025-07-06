@@ -28,7 +28,7 @@ export default function About() {
           >
             <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Antonis Matis"
                 fill
                 style={{ objectFit: 'cover' }}

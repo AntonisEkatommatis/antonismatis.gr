@@ -15,7 +15,8 @@ import {
   FaMicrosoft,
   FaCode,
   FaLayerGroup,
-  FaCogs
+  FaCogs,
+  FaGitAlt
 } from 'react-icons/fa';
 import { SiKotlin, SiJavascript, SiFlask } from 'react-icons/si';
 import { TbBrandCSharp } from "react-icons/tb";
@@ -37,22 +38,16 @@ export default function Skills() {
   ];
 
   const skills = [
-    { name: 'java', icon: <FaJava size={40} className="text-red-500" />, level: 7, category: 'languages' },
-    { name: 'nodejs', icon: <FaNodeJs size={40} className="text-green-500" />, level: 8, category: 'backend' },
-    { name: 'react', icon: <FaReact size={40} className="text-blue-500" />, level: 8, category: 'frontend' },
-    { name: 'python', icon: <FaPython size={40} className="text-yellow-500" />, level: 8, category: 'languages' },
-    { name: 'csharp', icon: <TbBrandCSharp size={40} className="text-purple-500" />, level: 7, category: 'languages' },
-    { name: 'kotlin', icon: <SiKotlin size={40} className="text-orange-500" />, level: 3, category: 'languages' },
+    { name: 'python', icon: <FaPython size={40} className="text-yellow-500" />, level: 7, category: 'languages' },
+    { name: 'git', icon: <FaGitAlt size={40} className="text-red-500" />, level: 7, category: 'tools' },
+    { name: 'nodejs', icon: <FaNodeJs size={40} className="text-green-500" />, level: 6, category: 'backend' },
+    { name: 'react', icon: <FaReact size={40} className="text-blue-500" />, level: 6, category: 'frontend' },
     { name: 'wordpress', icon: <FaWordpress size={40} className="text-blue-400" />, level: 6, category: 'tools' },
-    { name: 'php', icon: <FaPhp size={40} className="text-indigo-500" />, level: 5, category: 'backend' },
-    { name: 'sql', icon: <FaDatabase size={40} className="text-gray-600" />, level: 8, category: 'database' },
-    { name: 'html', icon: <FaHtml5 size={40} className="text-orange-600" />, level: 7, category: 'frontend' },
-    { name: 'css', icon: <FaCss3Alt size={40} className="text-blue-600" />, level: 8, category: 'frontend' },
-    { name: 'javascript', icon: <SiJavascript size={40} className="text-yellow-400" />, level: 8, category: 'languages' },
-    { name: 'flask', icon: <SiFlask size={40} className="text-gray-600" />, level: 7, category: 'backend' },
-    { name: 'powerapps', icon: <FaMicrosoft size={40} className="text-purple-600" />, level: 8, category: 'tools' },
-    { name: 'powerautomate', icon: <FaCogs size={40} className="text-blue-700" />, level: 7, category: 'tools' },
+    { name: 'sql', icon: <FaDatabase size={40} className="text-gray-600" />, level: 6, category: 'database' },
+    { name: 'javascript', icon: <SiJavascript size={40} className="text-yellow-400" />, level: 6, category: 'languages' },
     { name: 'ai', icon: <span className="text-4xl">🤖</span>, level: 6, category: 'tools' },
+    { name: 'java', icon: <FaJava size={40} className="text-red-500" />, level: 5, category: 'languages' },
+    { name: 'php', icon: <FaPhp size={40} className="text-indigo-500" />, level: 3, category: 'backend' },
   ];
 
   // Φιλτράρισμα δεξιοτήτων βάσει της επιλεγμένης κατηγορίας

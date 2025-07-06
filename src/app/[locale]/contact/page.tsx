@@ -2,12 +2,23 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaUniversity } from 'react-icons/fa';
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaMapMarkerAlt,
+  FaUniversity,
+  FaFileDownload
+} from 'react-icons/fa';
 
 export default function Contact() {
   const t = useTranslations('contact');
   const tEducation = useTranslations('education');
   const locale = useLocale();
+
+  const resumeFile = locale === 'el'
+    ? '/AntonisEkatommatis_CV_GR.pdf'
+    : '/AntonisEkatommatis_CV_EN.pdf';
 
   return (
     <div className="min-h-screen py-16">
@@ -30,6 +41,30 @@ export default function Contact() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
+                {/* CV Download Section */}
+                <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
+                  <div className="flex-shrink-0">
+                    <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
+                      <FaFileDownload className="text-primary" size={36} />
+                    </div>
+                  </div>
+                  <div>
+                    <h2 className="text-2xl font-semibold mb-2">
+                      {locale === 'el' ? 'Κατεβάστε το Βιογραφικό μου' : 'Download My Resume'}
+                    </h2>
+                    <a 
+                      href={resumeFile}
+                      download
+                      className="text-lg text-primary hover:underline"
+                    >
+                      {locale === 'el' ? 'Αρχείο PDF' : 'PDF File'}
+                    </a>
+                  </div>
+                </div>
+
+                <div className="border-t border-gray-200 dark:border-gray-700 my-8"></div>
+
+                {/* Email Section */}
                 <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
                   <div className="flex-shrink-0">
                     <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
@@ -49,6 +84,7 @@ export default function Contact() {
 
                 <div className="border-t border-gray-200 dark:border-gray-700 my-8"></div>
 
+                {/* GitHub Section */}
                 <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
                   <div className="flex-shrink-0">
                     <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
@@ -73,6 +109,7 @@ export default function Contact() {
 
                 <div className="border-t border-gray-200 dark:border-gray-700 my-8"></div>
 
+                {/* LinkedIn Section */}
                 <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
                   <div className="flex-shrink-0">
                     <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
@@ -97,6 +134,7 @@ export default function Contact() {
 
                 <div className="border-t border-gray-200 dark:border-gray-700 my-8"></div>
 
+                {/* Location Section */}
                 <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
                   <div className="flex-shrink-0">
                     <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
@@ -113,6 +151,7 @@ export default function Contact() {
 
                 <div className="border-t border-gray-200 dark:border-gray-700 my-8"></div>
 
+                {/* Education Section */}
                 <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
                   <div className="flex-shrink-0">
                     <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
@@ -121,7 +160,7 @@ export default function Contact() {
                   </div>
                   <div className="w-full">
                     <h2 className="text-2xl font-semibold mb-4">{t('education')}</h2>
-                    
+
                     <div className="space-y-6">
                       <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg border-l-4 border-primary">
                         <div className="flex justify-between items-start">
@@ -139,7 +178,7 @@ export default function Contact() {
                           {tEducation('university.specialization')}
                         </p>
                       </div>
-                      
+
                       <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg border-l-4 border-primary">
                         <div className="flex justify-between items-start">
                           <h3 className="text-xl font-bold text-primary">
@@ -159,6 +198,7 @@ export default function Contact() {
                     </div>
                   </div>
                 </div>
+
               </motion.div>
             </div>
           </div>
@@ -166,4 +206,4 @@ export default function Contact() {
       </div>
     </div>
   );
-} 
+}

@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "My name is Antonis Ekatommatis, and I am a software developer with a passion for continuous learning and technological advancement. I graduated from the University of Piraeus with a degree in Computer Science, gaining a strong foundation in programming and software development.\n\nMy professional philosophy is based on the continuous pursuit of knowledge, as I believe that constant growth is the key to innovation and success in any project. I focus primarily on Full Stack Development, with a preference for backend technologies, while always seeking new challenges that allow me to expand my skills and contribute meaningfully to the development of technological solutions.\n\nI live in Chios, but my passion for technology and programming innovation knows no boundaries. My goal is to evolve into a top-tier developer, leveraging my knowledge to create efficient, reliable, and modern applications."
+    "description": "My name is Antonis Ekatommatis, and I’m a self-motivated Full Stack Developer based in Chios, Greece. I specialize in building scalable internal tools and ERP-integrated platforms that solve real-world business problems.\n\nI have hands-on experience in projects related to procurement workflows, asset management, and AI-powered product enrichment using technologies like NodeJS, React, MySQL, and Python.\n\nCombining backend development with IT support and cloud infrastructure, I strive to deliver modern, reliable, and efficient software solutions. My mindset is driven by continuous learning and experimentation, always aiming to create meaningful impact through technology."
   },
   "skills": {
     "title": "Skills",
@@ -40,6 +40,7 @@
     },
     "java": "Java",
     "nodejs": "Node.js",
+    "git": "Git",
     "react": "React",
     "python": "Python",
     "csharp": "C#",
@@ -66,9 +67,9 @@
     "title": "Experience",
     "kokolias": {
       "title": "Junior Software Engineer and Junior IT",
-      "company": "KOKOLIAS",
+      "company": "Kokolias & Co.",
       "period": "August 2024 - Present",
-      "description": "At KOKOLIAS company, I am responsible for developing and maintaining web applications, managing databases, and providing IT support. Additionally, I contribute to automating business processes through Microsoft Power Platform and developing solutions that improve the company's efficiency."
+      "description": "At Kokolias & Co., I actively contribute to the development and maintenance of internal web applications using technologies like Flask, NodeJS, React, and MySQL, supporting key operations such as asset tracking, procurement workflows, and sales reporting. I also manage databases and provide daily IT support, including server setups, PC provisioning, and network administration. In parallel, I deliver business applications through the Microsoft Power Platform, streamlining processes like leave requests, expense claims, and approval flows. Additionally, I assist in the company’s digital transformation through ERP and SharePoint API integrations, as well as by implementing scraping tools and AI-powered solutions for enriched product data management."
     }
   },
   "contact": {

@@ -16,7 +16,8 @@ import {
   FaCode, 
   FaLaptopCode, 
   FaServer, 
-  FaUniversity
+  FaUniversity,
+  FaGitAlt
 } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
 
@@ -42,12 +43,12 @@ export default function Home() {
 
   // Κύριες δεξιότητες για προβολή στην αρχική σελίδα
   const topSkills = [
-    { name: tSkills('nodejs'), icon: <FaNodeJs size={32} className="text-green-500" />, level: 8, category: 'backend' },
-    { name: tSkills('react'), icon: <FaReact size={32} className="text-blue-500" />, level: 8, category: 'frontend' },
-    { name: tSkills('python'), icon: <FaPython size={32} className="text-yellow-500" />, level: 8, category: 'languages' },
-    { name: tSkills('javascript'), icon: <SiJavascript size={32} className="text-yellow-400" />, level: 8, category: 'languages' },
-    { name: tSkills('java'), icon: <FaJava size={32} className="text-red-500" />, level: 7, category: 'languages' },
-    { name: tSkills('sql'), icon: <FaDatabase size={32} className="text-gray-600" />, level: 8, category: 'database' },
+    { name: tSkills('python'), icon: <FaPython size={32} className="text-yellow-500" />, level: 7, category: 'languages' },
+    { name: tSkills('git'), icon: <FaGitAlt size={32} className="text-red-500" />, level: 7, category: 'tools' },
+    { name: tSkills('nodejs'), icon: <FaNodeJs size={32} className="text-green-500" />, level: 6, category: 'backend' },
+    { name: tSkills('react'), icon: <FaReact size={32} className="text-blue-500" />, level: 6, category: 'frontend' },
+    { name: tSkills('javascript'), icon: <SiJavascript size={32} className="text-yellow-400" />, level: 6, category: 'languages' },
+    { name: tSkills('sql'), icon: <FaDatabase size={32} className="text-gray-600" />, level: 7, category: 'database' },
   ];
 
   // Κατηγορίες δεξιοτήτων
@@ -157,7 +158,7 @@ export default function Home() {
                 {/* Εικόνα προφίλ */}
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
                   <Image
-                    src="/profile.jpg"
+                    src="/profile.png"
                     alt="Antonis Ekatommatis"
                     fill
                     style={{ objectFit: 'cover' }}
