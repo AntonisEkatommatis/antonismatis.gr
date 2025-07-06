@@ -39,10 +39,10 @@ export default function Contact() {
                   <div>
                     <h2 className="text-2xl font-semibold mb-2">{t('email')}</h2>
                     <a 
-                      href="mailto:contact@antonismatis.gr" 
+                      href="mailto:antonismatis@gmail.com" 
                       className="text-lg text-primary hover:underline"
                     >
-                      contact@antonismatis.gr
+                      antonismatis@gmail.com
                     </a>
                   </div>
                 </div>

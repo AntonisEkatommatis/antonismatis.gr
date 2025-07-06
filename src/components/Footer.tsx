@@ -69,12 +69,12 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/antonis-ekatommatis-b9b103333/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
                 <FaLinkedin size={24} />
               </a>
-              <a href="mailto:contact@antonismatis.gr" className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
+              <a href="mailto:antonismatis@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
                 <FaEnvelope size={24} />
               </a>
             </div>
             <p className="text-gray-600 dark:text-gray-400">
-              Email: contact@antonismatis.gr
+              Email: antonismatis@gmail.com
             </p>
           </div>
         </div>
